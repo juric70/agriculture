@@ -1,0 +1,109 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "masterContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "agriculture",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[chore]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[chore_person]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[chore_status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[city]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[contract]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[contract_plot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[goods_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ground]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[income_and_expenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[order_status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[person]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[plant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[plant_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[plot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[terrain]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "desktop-8ei7gp0\\mssqlserver02.master.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

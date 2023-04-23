@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HOME\\Desktop\\agriculture\\agriculture\\agriculture.csproj": {}
+    "C:\\Users\\inoso\\source\\repos\\agriculture\\agriculture\\agriculture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HOME\\Desktop\\agriculture\\agriculture\\agriculture.csproj": {
+    "C:\\Users\\inoso\\source\\repos\\agriculture\\agriculture\\agriculture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HOME\\Desktop\\agriculture\\agriculture\\agriculture.csproj",
+        "projectUniqueName": "C:\\Users\\inoso\\source\\repos\\agriculture\\agriculture\\agriculture.csproj",
         "projectName": "agriculture",
-        "projectPath": "C:\\Users\\HOME\\Desktop\\agriculture\\agriculture\\agriculture.csproj",
-        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HOME\\Desktop\\agriculture\\agriculture\\obj\\",
+        "projectPath": "C:\\Users\\inoso\\source\\repos\\agriculture\\agriculture\\agriculture.csproj",
+        "packagesPath": "C:\\Users\\inoso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inoso\\source\\repos\\agriculture\\agriculture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\inoso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
